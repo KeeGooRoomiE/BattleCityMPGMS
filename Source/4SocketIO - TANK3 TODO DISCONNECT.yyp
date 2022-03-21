@@ -86,7 +86,6 @@
     {"id":{"name":"spr_kust","path":"sprites/spr_kust/spr_kust.yy",},"order":8,},
     {"id":{"name":"obj_dpad_player","path":"objects/obj_dpad_player/obj_dpad_player.yy",},"order":12,},
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":6,},
-    {"id":{"name":"spr_metall","path":"sprites/spr_metall/spr_metall.yy",},"order":9,},
     {"id":{"name":"Analog_Pad","path":"extensions/Analog_Pad/Analog_Pad.yy",},"order":0,},
     {"id":{"name":"__view_get","path":"scripts/__view_get/__view_get.yy",},"order":1,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":5,},

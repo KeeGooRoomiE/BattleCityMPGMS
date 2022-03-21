@@ -11,7 +11,7 @@ instance_create(1,1,o_j_btn)
 instance_create(1,1,o_j_btn2)
 
 
-sio_emit_create_player();
+//sio_emit_create_player();
 /*
 window_set_size(1920, 1080); // Указываем начальный размер окна
 window_center(); //Выравниваем окно по центру экрана

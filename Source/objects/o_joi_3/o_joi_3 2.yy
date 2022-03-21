@@ -1,12 +1,12 @@
 {
   "spriteId": {
-    "name": "spr_pad_dpad",
-    "path": "sprites/spr_pad_dpad/spr_pad_dpad.yy",
+    "name": "sprite17_pne",
+    "path": "sprites/sprite17_pne/sprite17_pne.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -22,8 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -33,7 +32,7 @@
     "path": "folders/Объекты/gui/joi.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_j_btn",
+  "name": "o_joi_3",
   "tags": [],
   "resourceType": "GMObject",
 }

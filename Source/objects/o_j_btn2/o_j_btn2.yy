@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite21_0",
-    "path": "sprites/sprite21_0/sprite21_0.yy",
+    "name": "spr_pad_circle",
+    "path": "sprites/spr_pad_circle/spr_pad_circle.yy",
   },
   "solid": false,
   "visible": true,
