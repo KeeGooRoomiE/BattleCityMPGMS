@@ -3,7 +3,7 @@
   "isCompatibility": true,
   "parent": {
     "name": "instance",
-    "path": "folders/Scripts/Скрипты/compatibility/instance.yy",
+    "path": "folders/Скрипты/compatibility/instance.yy",
   },
   "resourceVersion": "1.0",
   "name": "instance_create",

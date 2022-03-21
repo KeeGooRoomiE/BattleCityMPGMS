@@ -3,7 +3,7 @@
   "isCompatibility": true,
   "parent": {
     "name": "object",
-    "path": "folders/Scripts/Скрипты/compatibility/object.yy",
+    "path": "folders/Скрипты/compatibility/object.yy",
   },
   "resourceVersion": "1.0",
   "name": "object_get_depth",
