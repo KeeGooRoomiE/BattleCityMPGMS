@@ -1,14 +1,5 @@
 init()
-global.username = get_string("Enter username","")
+global.username = get_string("Enter username","000")
+global.user_id  = get_string("Enter user_id","010")
 room_goto(rm2_start)
 
-global.isMapGen = true;
-
-global.mapArray[0,0]=0;
-
-for (i=0; i<81; i++)
-{
-	global.mapArray[i,i] = 0;
-}
-//true - creating map
-//false - load map

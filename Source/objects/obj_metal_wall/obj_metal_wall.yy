@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_metal_wall",
-    "path": "sprites/spr_metal_wall/spr_metal_wall.yy",
+    "name": "spr_grass",
+    "path": "sprites/spr_grass/spr_grass.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_wall",
+    "path": "objects/o_wall/o_wall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

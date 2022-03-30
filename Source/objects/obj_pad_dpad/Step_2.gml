@@ -1,7 +1,7 @@
 /// @description Moving
 cx=__view_get( e__VW.XView, 0 )+240-96
 cy=__view_get( e__VW.YView, 0 )+480-96-24
-if /*place_meeting(x,y,obj_pad_circle) &&*/ point_in_circle(mouse_x,mouse_y,cx,cy,96)
+if point_in_circle(mouse_x,mouse_y,cx,cy,96)
 {
     x=mouse_x
     y=mouse_y
@@ -19,6 +19,3 @@ else
     global.dir=dir_a
     global.length=lenght_a/96
 }
-
-/* */
-/*  */
