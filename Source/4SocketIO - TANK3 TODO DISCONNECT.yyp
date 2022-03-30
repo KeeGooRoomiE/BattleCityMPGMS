@@ -79,6 +79,7 @@
     {"id":{"name":"s_joi_btn","path":"sprites/s_joi_btn/s_joi_btn.yy",},"order":7,},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},"order":0,},
     {"id":{"name":"in_range","path":"scripts/in_range/in_range.yy",},"order":2,},
+    {"id":{"name":"spr_tanks_tileset35","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"order":1,},
     {"id":{"name":"o_j_btn2","path":"objects/o_j_btn2/o_j_btn2.yy",},"order":5,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":6,},
     {"id":{"name":"s_tank","path":"sprites/s_tank/s_tank.yy",},"order":4,},

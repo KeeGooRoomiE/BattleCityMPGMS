@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_tank16",
-    "path": "sprites/s_tank16/s_tank16.yy",
+    "name": "spr_tanks_tileset35",
+    "path": "sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",
   },
   "solid": false,
   "visible": true,

@@ -19,6 +19,7 @@
 
 speed=global.length*5
 direction = floor( global.dir / 90 ) * 90;
+image_index = direction*2;
 /*
 	x += xinput * move_speed
 	y += yinput * move_speed;
