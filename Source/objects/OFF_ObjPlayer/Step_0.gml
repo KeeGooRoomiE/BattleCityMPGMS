@@ -18,7 +18,7 @@
 */
 
 speed=global.length*5
-direction = floor( global.dir / 90 )*90;
+direction = floor( global.dir / 90 ) * 90;
 /*
 	x += xinput * move_speed
 	y += yinput * move_speed;
