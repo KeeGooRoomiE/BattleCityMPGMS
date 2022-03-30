@@ -16,6 +16,7 @@ else
     y=cy+lengthdir_y(96,point_direction(cx,cy,mouse_x,mouse_y))
     lenght_a=point_distance(x,y,cx,cy)
     dir_a=point_direction(cx,cy,x,y)
-    global.dir=dir_a
+    global.dir=dir_a;
+	show_debug_message("DIR?"+string(global.dir));
     global.length=lenght_a/96
 }
