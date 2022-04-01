@@ -3,7 +3,10 @@
 //Dpad
 global.dir=90                           //Dpad Direction
 global.length=0                         //Dpad Length
-instance_create(x,y,obj_pad_dpad)
+global.padEnable = false;
+global.cx = 0;
+global.cy = 0;
+
 //Generator
 
 sandPrec = irandom_range(8,10);		//8-10

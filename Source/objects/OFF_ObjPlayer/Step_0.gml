@@ -39,6 +39,7 @@ if ( in_range(global.dir,225,315) )
 {
 	direction = 270;
 }
+	
 //direction = floor( global.dir / 90 ) * 90;
 //image_index = direction*2;
 /*
