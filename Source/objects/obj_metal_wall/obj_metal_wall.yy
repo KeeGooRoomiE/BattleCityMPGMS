@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_grass",
-    "path": "sprites/spr_grass/spr_grass.yy",
+    "name": "spr_metal_wall",
+    "path": "sprites/spr_metal_wall/spr_metal_wall.yy",
   },
   "solid": false,
   "visible": true,
