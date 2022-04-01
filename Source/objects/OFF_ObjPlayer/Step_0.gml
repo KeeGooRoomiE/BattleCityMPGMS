@@ -17,8 +17,29 @@
 	}
 */
 
-speed=global.length*2
-direction = floor( global.dir / 90 ) * 90;
+speed=global.length*2;
+//global.dir - 0-359
+//direction 0,90,180,270
+if ( in_range(global.dir,316,359) ) or (in_range(global.dir,0,44) )
+{
+	direction = 0;
+}
+
+if ( in_range(global.dir,45,134) )
+{
+	direction = 90;
+}
+
+if ( in_range(global.dir,135,224) )
+{
+	direction = 180;
+}
+
+if ( in_range(global.dir,225,315) )
+{
+	direction = 270;
+}
+//direction = floor( global.dir / 90 ) * 90;
 //image_index = direction*2;
 /*
 	x += xinput * move_speed
