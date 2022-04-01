@@ -35,6 +35,8 @@ yv=80;
 
 bs=16;
 
+spc=64;
+
 for (i=0; i<xv; i++)
 {
 	for (j=0; j<yv; j++)
@@ -48,6 +50,16 @@ for (i=0; i<xv; i++)
 		{
 			//empty one
 			show_debug_message("Block " + string(i) + ":" +  string(j) + " is empty");
+			
+			if (spc > 0)
+			{
+				if (irandom(100) > 98)
+				{
+					instance_create_layer( (bs/2) + (i*bs), (bs/2) + (j*bs), "Floor", obj_spawner);
+					show_debug_message("Block " + string(i) + ":" +  string(j) + " is spawner point now");
+					spc-=1;
+				}
+			}
 		} else
 		{
 			if ( in_range(r,sandRangeMin,sandRangeMax) )
