@@ -119,6 +119,7 @@
     {"id":{"name":"s_tile_block_0_tileset","path":"tilesets/s_tile_block_0_tileset/s_tile_block_0_tileset.yy",},"order":0,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":5,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":2,},
     {"id":{"name":"spr_kirpich","path":"sprites/spr_kirpich/spr_kirpich.yy",},"order":7,},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},"order":1,},
     {"id":{"name":"sio_emit_create_block","path":"scripts/sio_emit_create_block/sio_emit_create_block.yy",},"order":1,},
