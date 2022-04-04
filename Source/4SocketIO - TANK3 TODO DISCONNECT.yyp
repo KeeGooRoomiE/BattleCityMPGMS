@@ -95,6 +95,7 @@
     {"id":{"name":"__view_get","path":"scripts/__view_get/__view_get.yy",},"order":1,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":5,},
     {"id":{"name":"rm2_start","path":"rooms/rm2_start/rm2_start.yy",},"order":2,},
+    {"id":{"name":"obj_button_shoot","path":"objects/obj_button_shoot/obj_button_shoot.yy",},"order":15,},
     {"id":{"name":"o_end6","path":"objects/o_end6/o_end6.yy",},"order":1,},
     {"id":{"name":"o_pesok","path":"objects/o_pesok/o_pesok.yy",},"order":2,},
     {"id":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},"order":3,},

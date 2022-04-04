@@ -11,13 +11,8 @@ if ( point_in_rectangle(mouse_x, mouse_y, vx, vy, vx+vw/2, vy+vh) )
 {
 	// FISRT PART
 	//SHOOTING
-	show_debug_message("PLAYER PRESSED SHOOTING SIDE");
-}
-
-if ( point_in_rectangle(mouse_x, mouse_y, (vx+vw/2)+1, vy, vx+vw, vy+vh) )
-{
-	//MOVEMENT PART
-	//MOVING
+	
+	
 	show_debug_message("PLAYER PRESSED MOVING SIDE");
 	if (!global.padEnable)
 	{
@@ -30,5 +25,14 @@ if ( point_in_rectangle(mouse_x, mouse_y, (vx+vw/2)+1, vy, vx+vw, vy+vh) )
 		global.padEnable = true;
 	}
 	
+}
+
+if ( point_in_rectangle(mouse_x, mouse_y, (vx+vw/2)+1, vy, vx+vw, vy+vh) )
+{
+	//MOVEMENT PART
+	//MOVING
+	show_debug_message("PLAYER PRESSED SHOOTING SIDE");
+	
+	instance_create_depth(mouse_x,mouse_y,depth-1,obj_button_shoot);
 
 }
