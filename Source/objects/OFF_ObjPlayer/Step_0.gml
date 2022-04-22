@@ -23,10 +23,12 @@
 	if ( place_free(xx,yy) )
 	{
 		speed = move*move_speed;
+		canMoveDpad = true
 		show_debug_message("PLACEFREE");
 	} else
 	{
 		speed = 0;
+		canMoveDpad = false;
 		show_debug_message("PLACEBLOCK");
 	}
 	#endregion
@@ -34,7 +36,8 @@
 	#region -- Dpad controls
 if ( global.padEnable = true )
 {
-	speed=move_speed;//global.length*2;
+	
+	speed=move_speed*canMoveDpad;//global.length*2;
 	
 	if ( in_range(global.dir,316,359) ) or (in_range(global.dir,0,44) )
 	{
