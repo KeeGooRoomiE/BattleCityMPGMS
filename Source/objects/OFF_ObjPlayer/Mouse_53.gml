@@ -7,6 +7,7 @@ var vy = camera_get_view_y(view_camera[0]);
 var vw = camera_get_view_width(view_camera[0]);
 var vh = camera_get_view_height(view_camera[0]);
 
+/*
 if ( point_in_rectangle(mouse_x, mouse_y, vx, vy, vx+vw/2, vy+vh) )
 {
 	// FISRT PART
@@ -26,7 +27,7 @@ if ( point_in_rectangle(mouse_x, mouse_y, vx, vy, vx+vw/2, vy+vh) )
 	}
 	
 }
-
+*/
 if ( point_in_rectangle(mouse_x, mouse_y, (vx+vw/2)+1, vy, vx+vw, vy+vh) )
 {
 	//MOVEMENT PART

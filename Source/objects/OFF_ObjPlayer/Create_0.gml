@@ -7,3 +7,6 @@ can_shoote=1
 image_blend=c_red;
 
 alarm[0]=1*room_speed;
+
+
+

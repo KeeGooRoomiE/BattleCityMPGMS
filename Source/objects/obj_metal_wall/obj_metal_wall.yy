@@ -3,7 +3,7 @@
     "name": "spr_metal_wall",
     "path": "sprites/spr_metal_wall/spr_metal_wall.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
