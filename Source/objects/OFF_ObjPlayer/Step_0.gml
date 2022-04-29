@@ -1,14 +1,9 @@
 ///@description Tank Movement
 
-instance_deactivate_layer("Roof");
-instance_deactivate_layer("Floor");
-instance_deactivate_layer("Obstacles");
-var _vx = camera_get_view_x(view_camera[0]);
-var _vy = camera_get_view_y(view_camera[0]);
-var _vw = camera_get_view_width(view_camera[0]);
-var _vh = camera_get_view_height(view_camera[0]);
-instance_activate_region(_vx - 10, _vy - 10, _vw - 10, _vh - 10, true);
+//var _vx = camera_get_view_x(view_camera[0]);
+//var _vy = camera_get_view_y(view_camera[0]);
 
+activate_region();
 	#region -- Keyboard contorls
 	var moveLeft =  ( keyboard_check(vk_left) or keyboard_check(ord("A")) )		//bool
 	var moveRight = ( keyboard_check(vk_right) or keyboard_check(ord("D")) )	//bool

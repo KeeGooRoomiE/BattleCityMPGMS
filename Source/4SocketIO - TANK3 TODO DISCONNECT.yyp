@@ -20,6 +20,7 @@
     {"id":{"name":"gmcallback_sio_on_gms_player_hp_update_all","path":"scripts/gmcallback_sio_on_gms_player_hp_update_all/gmcallback_sio_on_gms_player_hp_update_all.yy",},"order":6,},
     {"id":{"name":"__global_object_depths","path":"scripts/__global_object_depths/__global_object_depths.yy",},"order":4,},
     {"id":{"name":"s_Minimap","path":"sprites/s_Minimap/s_Minimap.yy",},"order":3,},
+    {"id":{"name":"activate_region","path":"scripts/activate_region/activate_region.yy",},"order":5,},
     {"id":{"name":"sio_init","path":"scripts/sio_init/sio_init.yy",},"order":0,},
     {"id":{"name":"s_win_lose","path":"sprites/s_win_lose/s_win_lose.yy",},"order":5,},
     {"id":{"name":"OFF_o_bullet","path":"objects/OFF_o_bullet/OFF_o_bullet.yy",},"order":9,},
@@ -144,11 +145,9 @@
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
     {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
-    {"name":"Main","path":"options/main/options_main.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
-  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
@@ -221,7 +220,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"srvip.ini","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2022.1.1.610",
   },
   "resourceVersion": "1.4",
   "name": "4SocketIO - TANK3 TODO DISCONNECT",
