@@ -1,12 +1,12 @@
 /// @description Preload variables
-
+global.briks[0] = []; // здесь будут храниться все созданные блоки кирпича
+global.briksId = 0; // уникальный идентификатор для каждого блока кирпича
 //Dpad
 global.dir=90                           //Dpad Direction
 global.length=0                         //Dpad Length
 global.padEnable = false;
 global.cx = 0;
 global.cy = 0;
-
 //Generator
 
 sandPrec = irandom_range(8,10);		//8-10
@@ -39,7 +39,7 @@ yv=80;
 bs=16;
 
 spc=64;
-
+/*
 for (i=0; i<xv; i++)
 {
 	for (j=0; j<yv; j++)
@@ -111,8 +111,10 @@ for (i=0; i<xv; i++)
 		
 			//empty one
 			//show_debug_message("Block " + string(i) + ":" +  string(j) + " is empty");
-	}
-}
+	
+	
+	//}
+//}
 
 
 
