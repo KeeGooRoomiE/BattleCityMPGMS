@@ -7,7 +7,6 @@ hp = 2;
 
 gotDamageFrom = 0;
 
-show_message("CREB")
 
 global.briksId++
 bid = real(global.briksId);

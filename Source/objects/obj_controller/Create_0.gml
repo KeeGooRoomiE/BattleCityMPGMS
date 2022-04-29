@@ -39,7 +39,7 @@ yv=80;
 bs=16;
 
 spc=64;
-/*
+
 for (i=0; i<xv; i++)
 {
 	for (j=0; j<yv; j++)
@@ -113,8 +113,8 @@ for (i=0; i<xv; i++)
 			//show_debug_message("Block " + string(i) + ":" +  string(j) + " is empty");
 	
 	
-	//}
-//}
+	}
+}
 
 
 
