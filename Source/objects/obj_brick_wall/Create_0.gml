@@ -7,12 +7,10 @@ hp = 2;
 
 gotDamageFrom = 0;
 
-
+srvid = 111000
 global.briksId++
 bid = real(global.briksId);
-global.briks[real(global.briksId)] = []; // здесь будут храниться все созданные блоки кирпича
+global.briks[bid] = []; // здесь будут храниться все созданные блоки кирпича
 
-array_push(global.briks[real(global.briksId)], id,hp); // (добавить) вставить в конец
-
-instance_deactivate_object(self)
+array_push(global.briks[bid], id, hp, gotDamageFrom, srvid); // (добавить) вставить в конец
 

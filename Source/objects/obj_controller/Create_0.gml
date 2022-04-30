@@ -1,6 +1,10 @@
 /// @description Preload variables
+alarm[1]=30
+
 global.briks[0] = []; // здесь будут храниться все созданные блоки кирпича
+array_push(global.briks[0], 0, 0, 0, 0); // (добавить) вставить в конец
 global.briksId = 0; // уникальный идентификатор для каждого блока кирпича
+
 //Dpad
 global.dir=90                           //Dpad Direction
 global.length=0                         //Dpad Length
@@ -39,7 +43,7 @@ yv=80;
 bs=16;
 
 spc=64;
-
+/*
 for (i=0; i<xv; i++)
 {
 	for (j=0; j<yv; j++)
@@ -95,26 +99,8 @@ for (i=0; i<xv; i++)
 				instance_create_layer( (bs/2) + (i*bs), (bs/2) + (j*bs), "Obstacles", obj_brick_wall);
 			}
 		}
-		
-		
-		
-
-			/*
-			show_debug_message("Its a brick wall");
-			instance_create_layer( (bs/2) + (i*bs), (bs/2) + (j*bs), "Obstacles", obj_brick_wall);
-			*/
-			
-			/*
-			show_debug_message("Seems its a sand");
-			instance_create_layer( (bs/2) + (i*bs), (bs/2) + (j*bs), "Floor", obj_sand_tile);
-			*/
-		
-			//empty one
-			//show_debug_message("Block " + string(i) + ":" +  string(j) + " is empty");
-	
-	
 	}
 }
 
-
+*/
 
