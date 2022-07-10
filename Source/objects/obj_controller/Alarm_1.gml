@@ -1,1 +1,0 @@
-instance_create(100,500,OFF_ObjPlayer)
