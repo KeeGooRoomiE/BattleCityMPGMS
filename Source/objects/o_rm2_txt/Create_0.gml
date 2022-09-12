@@ -1,0 +1,3 @@
+txtdata = ""
+txtdatat = ""
+
