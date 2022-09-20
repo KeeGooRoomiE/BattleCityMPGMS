@@ -1,0 +1,2 @@
+/// ГРАИФКА
+instance_destroy()
