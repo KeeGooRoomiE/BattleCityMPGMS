@@ -15,8 +15,13 @@
   "option_android_arch_x86": false,
   "option_android_arch_arm64": false,
   "option_android_arch_x86_64": false,
+<<<<<<< HEAD
   "option_android_orient_portrait": true,
   "option_android_orient_portrait_flipped": true,
+=======
+  "option_android_orient_portrait": false,
+  "option_android_orient_portrait_flipped": false,
+>>>>>>> parent of 120574d (-)
   "option_android_orient_landscape": true,
   "option_android_orient_landscape_flipped": true,
   "option_android_gamepad_support": true,
@@ -61,8 +66,13 @@
   "option_android_permission_write_external_storage": false,
   "option_android_permission_read_phone_state": false,
   "option_android_permission_network_state": false,
+<<<<<<< HEAD
   "option_android_permission_internet": true,
   "option_android_permission_bluetooth": true,
+=======
+  "option_android_permission_internet": false,
+  "option_android_permission_bluetooth": false,
+>>>>>>> parent of 120574d (-)
   "option_android_permission_record_audio": false,
   "option_android_application_tag_inject": "",
   "option_android_google_apk_expansion": false,

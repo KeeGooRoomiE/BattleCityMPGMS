@@ -42,7 +42,11 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"380a0046-7557-447a-b9fe-cad95b9a5c06","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"871458e3-46b5-4a4a-9158-dc4a43da01b6","path":"sprites/spr_pesok/spr_pesok.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+<<<<<<< HEAD
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+=======
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+>>>>>>> parent of 120574d (-)
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,7 +63,11 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pesok","path":"sprites/spr_pesok/spr_pesok.yy",},
+<<<<<<< HEAD
     "resourceVersion": "1.4",
+=======
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

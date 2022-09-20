@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 global.fli = 0
 canMoveDpad = 0;
 move_speed = 1; // было 3 =(0.6= *3-80%*)
@@ -19,3 +20,10 @@ sprsh=0
 //instance_create(x,y,obj_button_exit)
 instance_create_layer(x,y,"TXT_PL",obj_draw_text_tank)
 
+=======
+image_speed=0
+depth=-2
+move_speed = 7;
+can_shoote=1
+
+>>>>>>> parent of 120574d (-)

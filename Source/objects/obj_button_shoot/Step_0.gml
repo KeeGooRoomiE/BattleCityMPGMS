@@ -1,6 +1,7 @@
 if device_mouse_check_button_released((1),mb_any)
     {
     instance_destroy()
+<<<<<<< HEAD
     }
 		
 with (ObjPlayer)
@@ -36,3 +37,6 @@ if (can_shoote)
 		can_shoote=0
 	}
 }
+=======
+    }
+>>>>>>> parent of 120574d (-)

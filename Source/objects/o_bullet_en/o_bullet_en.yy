@@ -1,9 +1,16 @@
 {
   "spriteId": {
+<<<<<<< HEAD
     "name": "Bullet",
     "path": "sprites/Bullet/Bullet.yy",
   },
   "solid": true,
+=======
+    "name": "s_bullet",
+    "path": "sprites/s_bullet/s_bullet.yy",
+  },
+  "solid": false,
+>>>>>>> parent of 120574d (-)
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,6 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+<<<<<<< HEAD
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_brick_wall","path":"objects/obj_brick_wall/obj_brick_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -28,6 +36,10 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_bullet_en","path":"objects/o_bullet_en/o_bullet_en.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+=======
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+>>>>>>> parent of 120574d (-)
   ],
   "properties": [],
   "overriddenProperties": [],

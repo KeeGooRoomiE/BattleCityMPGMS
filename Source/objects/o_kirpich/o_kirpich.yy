@@ -3,7 +3,11 @@
     "name": "spr_kirpich",
     "path": "sprites/spr_kirpich/spr_kirpich.yy",
   },
+<<<<<<< HEAD
   "solid": true,
+=======
+  "solid": false,
+>>>>>>> parent of 120574d (-)
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -25,8 +29,14 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+<<<<<<< HEAD
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+=======
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_bullet_en","path":"objects/o_bullet_en/o_bullet_en.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+>>>>>>> parent of 120574d (-)
   ],
   "properties": [],
   "overriddenProperties": [],

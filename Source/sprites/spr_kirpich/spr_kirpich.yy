@@ -2,7 +2,11 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
+<<<<<<< HEAD
   "origin": 4,
+=======
+  "origin": 0,
+>>>>>>> parent of 120574d (-)
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -42,7 +46,11 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e18f73f3-046c-4f84-b47a-8fb18f01506d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec8b0ea7-eafe-426c-99ab-f0368835aeb7","path":"sprites/spr_kirpich/spr_kirpich.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+<<<<<<< HEAD
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+=======
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+>>>>>>> parent of 120574d (-)
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -54,12 +62,21 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
+<<<<<<< HEAD
     "xorigin": 32,
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_kirpich","path":"sprites/spr_kirpich/spr_kirpich.yy",},
     "resourceVersion": "1.4",
+=======
+    "xorigin": 0,
+    "yorigin": 0,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_kirpich","path":"sprites/spr_kirpich/spr_kirpich.yy",},
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

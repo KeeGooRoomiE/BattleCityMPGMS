@@ -1,6 +1,10 @@
 {
   "spriteId": null,
+<<<<<<< HEAD
   "solid": false,
+=======
+  "solid": true,
+>>>>>>> parent of 120574d (-)
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

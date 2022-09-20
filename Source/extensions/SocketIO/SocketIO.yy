@@ -39,6 +39,7 @@
         {"name":"SocketIO","path":"extensions/SocketIO/SocketIO.yy",},
         {"name":"SocketIO","path":"extensions/SocketIO/SocketIO.yy",},
         {"name":"SocketIO","path":"extensions/SocketIO/SocketIO.yy",},
+<<<<<<< HEAD
         {"name":"sio_connect_by_url","path":"extensions/SocketIO/SocketIO.yy",},
         {"name":"sio_disconnect","path":"extensions/SocketIO/SocketIO.yy",},
         {"name":"sio_reconnect","path":"extensions/SocketIO/SocketIO.yy",},
@@ -46,6 +47,8 @@
         {"name":"sio_emit","path":"extensions/SocketIO/SocketIO.yy",},
         {"name":"sio_get_connection_status","path":"extensions/SocketIO/SocketIO.yy",},
         {"name":"sio_connect","path":"extensions/SocketIO/SocketIO.yy",},
+=======
+>>>>>>> parent of 120574d (-)
       ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
     {"filename":"socket.io.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
   ],
@@ -67,10 +70,13 @@
   "androidmanifestinject": "",
   "androidactivityinject": "",
   "gradleinject": "",
+<<<<<<< HEAD
   "androidcodeinjection": "",
   "hasConvertedCodeInjection": true,
   "ioscodeinjection": "",
   "tvoscodeinjection": "",
+=======
+>>>>>>> parent of 120574d (-)
   "iosSystemFrameworkEntries": [],
   "tvosSystemFrameworkEntries": [],
   "iosThirdPartyFrameworkEntries": [],

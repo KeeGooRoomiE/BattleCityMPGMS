@@ -1,9 +1,16 @@
 {
   "spriteId": {
+<<<<<<< HEAD
     "name": "NFT_Oth_Tank",
     "path": "sprites/NFT_Oth_Tank/NFT_Oth_Tank.yy",
   },
   "solid": true,
+=======
+    "name": "s_tank",
+    "path": "sprites/s_tank/s_tank.yy",
+  },
+  "solid": false,
+>>>>>>> parent of 120574d (-)
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -26,7 +33,10 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+<<<<<<< HEAD
     {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+=======
+>>>>>>> parent of 120574d (-)
   ],
   "properties": [],
   "overriddenProperties": [],

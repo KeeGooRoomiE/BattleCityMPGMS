@@ -1,6 +1,10 @@
 /// @description Moving
+<<<<<<< HEAD
 cx = camera_get_view_x(view_camera[0]) + dx;
 cy = camera_get_view_y(view_camera[0]) + dy;
+=======
+
+>>>>>>> parent of 120574d (-)
 
 if point_in_circle(mouse_x,mouse_y,cx,cy,96)
 {

@@ -8,6 +8,7 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
+<<<<<<< HEAD
   "bbox_right": 13,
   "bbox_top": 0,
   "bbox_bottom": 13,
@@ -16,6 +17,16 @@
   "For3D": false,
   "width": 14,
   "height": 14,
+=======
+  "bbox_right": 15,
+  "bbox_top": 0,
+  "bbox_bottom": 15,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 16,
+  "height": 16,
+>>>>>>> parent of 120574d (-)
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,6 +35,7 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
+<<<<<<< HEAD
     {"compositeImage":{"FrameId":{"name":"8c9df730-8de5-4461-be0d-bbda0d8c77e1","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"8c9df730-8de5-4461-be0d-bbda0d8c77e1","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"LayerId":{"name":"4bb04941-6782-448f-af65-b2a852e76ae9","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_tanks_tileset35","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","name":"8c9df730-8de5-4461-be0d-bbda0d8c77e1","tags":[],"resourceType":"GMSpriteFrame",},
@@ -48,6 +60,11 @@
     {"compositeImage":{"FrameId":{"name":"20a5006f-09f9-4043-a6c7-78261a036015","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"20a5006f-09f9-4043-a6c7-78261a036015","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"LayerId":{"name":"4bb04941-6782-448f-af65-b2a852e76ae9","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_tanks_tileset35","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","name":"20a5006f-09f9-4043-a6c7-78261a036015","tags":[],"resourceType":"GMSpriteFrame",},
+=======
+    {"compositeImage":{"FrameId":{"name":"224505a2-05b9-4a03-ae24-437864dfeff2","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"224505a2-05b9-4a03-ae24-437864dfeff2","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"LayerId":{"name":"4bb04941-6782-448f-af65-b2a852e76ae9","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tanks_tileset35","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","name":"224505a2-05b9-4a03-ae24-437864dfeff2","tags":[],"resourceType":"GMSpriteFrame",},
+>>>>>>> parent of 120574d (-)
   ],
   "sequence": {
     "spriteId": {"name":"spr_tanks_tileset35","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},
@@ -57,11 +74,16 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
+<<<<<<< HEAD
     "length": 8.0,
+=======
+    "length": 1.0,
+>>>>>>> parent of 120574d (-)
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+<<<<<<< HEAD
             {"id":"7a7759be-6a37-4def-b268-ac1dc4546362","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c9df730-8de5-4461-be0d-bbda0d8c77e1","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cdf7757f-54ec-417e-9c80-2c6541856315","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0e3c03bf-d298-42bb-9483-6d0594ba7b01","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6cbcb421-da03-4b93-a9c7-21ff44682948","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d49ecd53-a08a-4c2d-9e55-88cadd566375","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -71,6 +93,10 @@
             {"id":"dd730409-2d26-4734-8eef-3a064b4a80c3","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5eaef4eb-954c-4060-8fd2-494f53877741","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cf94ae81-4ad5-490c-a526-8155e4f8854f","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"20a5006f-09f9-4043-a6c7-78261a036015","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+=======
+            {"id":"9982112a-6ba2-4249-b670-20b6eecf59d0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"224505a2-05b9-4a03-ae24-437864dfeff2","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+>>>>>>> parent of 120574d (-)
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -82,12 +108,21 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
+<<<<<<< HEAD
     "xorigin": 7,
     "yorigin": 7,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tanks_tileset35","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},
     "resourceVersion": "1.4",
+=======
+    "xorigin": 8,
+    "yorigin": 8,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_tanks_tileset35","path":"sprites/spr_tanks_tileset35/spr_tanks_tileset35.yy",},
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "spr_tanks_tileset",
     "tags": [],
     "resourceType": "GMSequence",

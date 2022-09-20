@@ -1,6 +1,10 @@
 {
   "option_amazonfire_sync_android": false,
+<<<<<<< HEAD
   "option_amazonfire_display_name": "Created with GameMaker",
+=======
+  "option_amazonfire_display_name": "Created with GameMaker Studio 2",
+>>>>>>> parent of 120574d (-)
   "option_amazonfire_version": "1.0.0.0",
   "option_amazonfire_tools_from_version": false,
   "option_amazonfire_build_tools": "",

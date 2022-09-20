@@ -42,7 +42,11 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"91b93353-8982-47a4-b559-39ee5e4f002c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6581097d-ede2-4923-b839-19f6ed10caf5","path":"sprites/spr_dpad_player/spr_dpad_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+<<<<<<< HEAD
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+=======
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+>>>>>>> parent of 120574d (-)
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,7 +63,11 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_dpad_player","path":"sprites/spr_dpad_player/spr_dpad_player.yy",},
+<<<<<<< HEAD
     "resourceVersion": "1.4",
+=======
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

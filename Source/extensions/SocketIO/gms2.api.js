@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+/*
+    Gamemaker: Studio 1.x/2 Socket.io extension
+    Source: https://github.com/IgnasKavaliauskas/SocketIO-GMS2-Extension
+*/
+
+>>>>>>> parent of 120574d (-)
 // Small wrapper of Socket.io for GM:S 2
 class SocketIO {
 
@@ -6,12 +14,20 @@ class SocketIO {
     }
 
     connect() {
+<<<<<<< HEAD
         this.socket = io.connect();
+=======
+        this.socket = io();
+>>>>>>> parent of 120574d (-)
         this.init_socket_event();
     }
 
     connect_by_url(url) {
+<<<<<<< HEAD
         this.socket = io.connect(url);
+=======
+        this.socket = io(url);
+>>>>>>> parent of 120574d (-)
         this.init_socket_event();
     }
 

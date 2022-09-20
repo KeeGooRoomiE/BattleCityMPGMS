@@ -8,6 +8,7 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
+<<<<<<< HEAD
   "bbox_right": 63,
   "bbox_top": 0,
   "bbox_bottom": 63,
@@ -16,6 +17,16 @@
   "For3D": false,
   "width": 64,
   "height": 64,
+=======
+  "bbox_right": 15,
+  "bbox_top": 0,
+  "bbox_bottom": 15,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 16,
+  "height": 16,
+>>>>>>> parent of 120574d (-)
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -46,7 +57,11 @@
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5eacb9cf-0414-4854-8d89-1f1044707728","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4c87de5-ee11-473f-b4ee-01d67e76e008","path":"sprites/spr_water_wall/spr_water_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"16d29f0b-e07a-4d76-b4bb-1d0e0d71e7e5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa10775c-9b8b-49f8-8184-3e5ac675e229","path":"sprites/spr_water_wall/spr_water_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+<<<<<<< HEAD
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+=======
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+>>>>>>> parent of 120574d (-)
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,12 +73,21 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
+<<<<<<< HEAD
     "xorigin": 32,
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_water_wall","path":"sprites/spr_water_wall/spr_water_wall.yy",},
     "resourceVersion": "1.4",
+=======
+    "xorigin": 8,
+    "yorigin": 8,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_water_wall","path":"sprites/spr_water_wall/spr_water_wall.yy",},
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "spr_water_wall",
     "tags": [],
     "resourceType": "GMSequence",

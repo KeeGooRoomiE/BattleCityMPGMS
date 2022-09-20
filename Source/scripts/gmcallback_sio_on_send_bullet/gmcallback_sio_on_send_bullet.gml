@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function gmcallback_sio_on_send_bullet() {
 	var data = json_decode(argument[0]);
 	if (room=rm3_game)
@@ -20,3 +21,15 @@ function gmcallback_sio_on_send_bullet() {
 	}
 	
 }
+=======
+function gmcallback_sio_on_send_bullet() {
+	var data = json_decode(argument[0]);
+	
+	var bb = instance_create_depth(data[? "x"], data[? "y"], -2,o_bullet_en);
+		
+		bb.speed = data[? "speed"];
+		bb.damage = data[? "damage"];
+		bb.direction = data[? "direction"];
+	
+}
+>>>>>>> parent of 120574d (-)

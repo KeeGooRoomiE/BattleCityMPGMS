@@ -36,6 +36,14 @@
   "option_ios_half_ipad1_textures": false,
   "option_ios_scale": 0,
   "option_ios_texture_page": "2048x2048",
+<<<<<<< HEAD
+=======
+  "option_ios_use_facebook": false,
+  "option_ios_facebook_id": "",
+  "option_ios_facebook_app_display_name": "",
+  "option_ios_push_notifications": false,
+  "option_ios_apple_sign_in": false,
+>>>>>>> parent of 120574d (-)
   "option_ios_podfile_path": "${options_dir}/ios/Podfile",
   "option_ios_podfile_lock_path": "${options_dir}/ios/Podfile.lock",
   "resourceVersion": "1.3",

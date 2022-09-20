@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 image_index = array_get(global.briks[bid], 4)
 hp = array_get(global.briks[bid], 2)
@@ -8,4 +9,17 @@ if (hp < 1)
 {
 	sprite_index=sprite_bonbon_no_wall;
 }else{sprite_index=spr_brick_wall;}
+=======
+ gotDamageFrom = array_get(global.briks[bid], 2)
+hp = array_get(global.briks[bid], 1)
+
+if (hp = 1)
+{
+	image_index=gotDamageFrom;
+}
+if (hp < 1)
+{
+	instance_destroy(id);
+}
+>>>>>>> parent of 120574d (-)
 

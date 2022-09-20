@@ -42,9 +42,15 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8a5afa42-9939-4b2e-9107-1fa7056872c8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a9fb52a3-2b2e-44db-9912-3db056d361c8","path":"sprites/spr_kust/spr_kust.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+<<<<<<< HEAD
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
+=======
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+>>>>>>> parent of 120574d (-)
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -59,7 +65,11 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_kust","path":"sprites/spr_kust/spr_kust.yy",},
+<<<<<<< HEAD
     "resourceVersion": "1.4",
+=======
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

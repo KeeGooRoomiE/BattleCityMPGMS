@@ -4,6 +4,7 @@
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
+<<<<<<< HEAD
   "edgeFiltering": true,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
@@ -16,6 +17,20 @@
   "For3D": false,
   "width": 320,
   "height": 320,
+=======
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 0,
+  "bbox_right": 191,
+  "bbox_top": 0,
+  "bbox_bottom": 191,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 192,
+  "height": 192,
+>>>>>>> parent of 120574d (-)
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -42,7 +57,11 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"026eb086-4146-42f3-bdae-9f3ec8d5fb10","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a8435a27-cd67-4742-afdb-2044dafc9ae4","path":"sprites/spr_pad_circle/spr_pad_circle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+<<<<<<< HEAD
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+=======
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+>>>>>>> parent of 120574d (-)
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -54,12 +73,21 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
+<<<<<<< HEAD
     "xorigin": 160,
     "yorigin": 160,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pad_circle","path":"sprites/spr_pad_circle/spr_pad_circle.yy",},
     "resourceVersion": "1.4",
+=======
+    "xorigin": 96,
+    "yorigin": 96,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_pad_circle","path":"sprites/spr_pad_circle/spr_pad_circle.yy",},
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

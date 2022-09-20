@@ -3,7 +3,11 @@
     "name": "spr_metal",
     "path": "sprites/spr_metal/spr_metal.yy",
   },
+<<<<<<< HEAD
   "solid": true,
+=======
+  "solid": false,
+>>>>>>> parent of 120574d (-)
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

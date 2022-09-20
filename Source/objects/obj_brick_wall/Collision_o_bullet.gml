@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 	if (hp = 2)
 	{
@@ -9,3 +10,12 @@
 	}else{
 		sio_emit_block_hp_mm(string(bindex),1,0); 
 	}
+=======
+/// @description Insert description here
+// You can write your code in this editor
+
+gotDamageFrom = other.damageSide;
+hp -= 1;
+
+array_set(global.briks[bid],1,hp); 
+>>>>>>> parent of 120574d (-)

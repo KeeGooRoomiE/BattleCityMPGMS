@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "option_tvos_display_name": "Made in GameMaker",
+=======
+  "option_tvos_display_name": "Made in GameMaker Studio 2",
+>>>>>>> parent of 120574d (-)
   "option_tvos_bundle_name": "com.company.game",
   "option_tvos_version": "1.0.0.0",
   "option_tvos_output_dir": "~/GameMakerStudio2/tvOS",
@@ -18,6 +22,11 @@
   "option_tvos_scale": 0,
   "option_tvos_texture_page": "2048x2048",
   "option_tvos_display_cursor": false,
+<<<<<<< HEAD
+=======
+  "option_tvos_push_notifications": false,
+  "option_tvos_apple_sign_in": false,
+>>>>>>> parent of 120574d (-)
   "option_tvos_podfile_path": "${options_dir}\\tvos\\Podfile",
   "option_tvos_podfile_lock_path": "${options_dir}\\tvos\\Podfile.lock",
   "resourceVersion": "1.3",

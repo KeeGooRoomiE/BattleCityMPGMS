@@ -3,11 +3,18 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+<<<<<<< HEAD
   "applyKerning": 0,
   "fontName": "Segoe UI Light",
   "styleName": "Light",
   "size": 12.0,
   "bold": false,
+=======
+  "fontName": "Segoe UI Light",
+  "styleName": "Regular",
+  "size": 12.0,
+  "bold": true,
+>>>>>>> parent of 120574d (-)
   "italic": false,
   "charset": 1,
   "AntiAlias": 1,
@@ -21,7 +28,10 @@
     "path": "texturegroups/Default",
   },
   "ascenderOffset": 0,
+<<<<<<< HEAD
   "ascender": 0,
+=======
+>>>>>>> parent of 120574d (-)
   "glyphs": {
     "32": {"x":472,"y":198,"w":5,"h":21,"character":32,"shift":5,"offset":0,},
     "33": {"x":248,"y":247,"w":2,"h":19,"character":33,"shift":5,"offset":2,},
@@ -1157,8 +1167,13 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": true,
   "parent": {
+<<<<<<< HEAD
     "name": "Fonts",
     "path": "folders/Fonts.yy",
+=======
+    "name": "Шрифты",
+    "path": "folders/Шрифты.yy",
+>>>>>>> parent of 120574d (-)
   },
   "resourceVersion": "1.0",
   "name": "FntGame",

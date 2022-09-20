@@ -7,6 +7,7 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
+<<<<<<< HEAD
   "bbox_left": 8,
   "bbox_right": 55,
   "bbox_top": 7,
@@ -16,6 +17,17 @@
   "For3D": false,
   "width": 64,
   "height": 64,
+=======
+  "bbox_left": 16,
+  "bbox_right": 111,
+  "bbox_top": 15,
+  "bbox_bottom": 112,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 128,
+  "height": 128,
+>>>>>>> parent of 120574d (-)
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -62,7 +74,11 @@
             {"id":"9d5bdf46-c40f-43e8-b203-13f2de8eec07","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9a6952d-647e-4871-bd1e-f686a26e02d5","path":"sprites/s_boom_effect/s_boom_effect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"460ff920-7a2c-4954-b7e6-71b42f8a6fa6","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e28c1176-67ad-4e73-973a-6600383c402c","path":"sprites/s_boom_effect/s_boom_effect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8324a43f-9975-43fd-a9a5-e9b86950691e","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"092863bb-11d3-4607-99df-dba63e37b963","path":"sprites/s_boom_effect/s_boom_effect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+<<<<<<< HEAD
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+=======
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+>>>>>>> parent of 120574d (-)
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,12 +90,21 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
+<<<<<<< HEAD
     "xorigin": 32,
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_boom_effect","path":"sprites/s_boom_effect/s_boom_effect.yy",},
     "resourceVersion": "1.4",
+=======
+    "xorigin": 64,
+    "yorigin": 64,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"s_boom_effect","path":"sprites/s_boom_effect/s_boom_effect.yy",},
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

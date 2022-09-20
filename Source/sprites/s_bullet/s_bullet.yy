@@ -8,6 +8,7 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
+<<<<<<< HEAD
   "bbox_right": 3,
   "bbox_top": 0,
   "bbox_bottom": 2,
@@ -16,6 +17,16 @@
   "For3D": false,
   "width": 4,
   "height": 3,
+=======
+  "bbox_right": 7,
+  "bbox_top": 0,
+  "bbox_bottom": 4,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 8,
+  "height": 5,
+>>>>>>> parent of 120574d (-)
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -42,9 +53,15 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e8aeabd5-44b7-46d2-98da-5053c0d26cd0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da807009-0fb2-4e71-a4dc-2e699da9515d","path":"sprites/s_bullet/s_bullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+<<<<<<< HEAD
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
+=======
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+>>>>>>> parent of 120574d (-)
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -54,12 +71,21 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
+<<<<<<< HEAD
     "xorigin": 2,
     "yorigin": 1,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},
     "resourceVersion": "1.4",
+=======
+    "xorigin": 4,
+    "yorigin": 2,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

@@ -1,6 +1,10 @@
 {
   "bboxMode": 0,
+<<<<<<< HEAD
   "collisionKind": 4,
+=======
+  "collisionKind": 1,
+>>>>>>> parent of 120574d (-)
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -8,6 +12,7 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
+<<<<<<< HEAD
   "bbox_right": 63,
   "bbox_top": 0,
   "bbox_bottom": 63,
@@ -16,6 +21,16 @@
   "For3D": false,
   "width": 64,
   "height": 64,
+=======
+  "bbox_right": 15,
+  "bbox_top": 0,
+  "bbox_bottom": 15,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 16,
+  "height": 16,
+>>>>>>> parent of 120574d (-)
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -58,7 +73,11 @@
             {"id":"1e6f581e-afee-4b93-8e63-0a8903ff2ad3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94005af5-c8a8-4fcb-ae60-e1518240a73a","path":"sprites/spr_brick_wall/spr_brick_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"616f106c-b6ab-48cf-b165-e344d667786a","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"23475f5f-447f-4ce5-9735-a6db7b3c38a5","path":"sprites/spr_brick_wall/spr_brick_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"924775bb-e00b-406b-a632-9a89f8b2b707","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6764109-62ce-4828-bafd-ab02d12f6276","path":"sprites/spr_brick_wall/spr_brick_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+<<<<<<< HEAD
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+=======
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+>>>>>>> parent of 120574d (-)
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,12 +89,21 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
+<<<<<<< HEAD
     "xorigin": 32,
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_brick_wall","path":"sprites/spr_brick_wall/spr_brick_wall.yy",},
     "resourceVersion": "1.4",
+=======
+    "xorigin": 8,
+    "yorigin": 8,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_brick_wall","path":"sprites/spr_brick_wall/spr_brick_wall.yy",},
+    "resourceVersion": "1.3",
+>>>>>>> parent of 120574d (-)
     "name": "spr_brick_wall",
     "tags": [],
     "resourceType": "GMSequence",
