@@ -15,7 +15,7 @@ instance_deactivate_layer("SAND");
 	var _vy = camera_get_view_y(view_camera[0]);
 	var _vw = camera_get_view_width(view_camera[0]);
 	var _vh = camera_get_view_height(view_camera[0]);
-	instance_activate_region( _vx - 140, _vy - 140, _vw + 140 ,_vh + 140, true);
+	instance_activate_region( _vx - 70, _vy - 70, _vw + 70 ,_vh + 70, true);
 
 ///@description Tank Movement
 var movekey = 0
