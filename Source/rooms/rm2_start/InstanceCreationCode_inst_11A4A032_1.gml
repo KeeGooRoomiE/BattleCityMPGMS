@@ -1,1 +1,0 @@
-txtdatat="nftpage"

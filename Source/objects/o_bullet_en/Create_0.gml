@@ -1,1 +1,0 @@
-audio_play_sound(player_shot, 10, false);

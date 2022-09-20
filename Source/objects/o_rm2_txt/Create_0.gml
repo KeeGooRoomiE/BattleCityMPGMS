@@ -1,3 +1,0 @@
-txtdata = ""
-txtdatat = ""
-

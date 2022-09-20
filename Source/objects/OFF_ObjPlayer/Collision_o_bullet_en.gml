@@ -1,4 +1,0 @@
-if(isLocalPlayer){
-	
-	global.hp--
-}

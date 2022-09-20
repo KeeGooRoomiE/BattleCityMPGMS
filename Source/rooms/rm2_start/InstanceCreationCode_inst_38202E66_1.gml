@@ -1,1 +1,0 @@
-txtdata = "MY TANK"
