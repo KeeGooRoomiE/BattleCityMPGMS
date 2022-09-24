@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Tank_turret_pro_1",
-    "path": "sprites/Tank_turret_pro_1/Tank_turret_pro_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
