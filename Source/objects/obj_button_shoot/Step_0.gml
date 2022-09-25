@@ -1,4 +1,3 @@
-depth=-9999989898
 if device_mouse_check_button_released((1),mb_any)
     {
     instance_destroy()
