@@ -1,3 +1,5 @@
+image_xscale=0.3
+image_yscale=0.3
 /// @description Moving
 cx = camera_get_view_x(view_camera[0]) + dx;
 cy = camera_get_view_y(view_camera[0]) + dy;
