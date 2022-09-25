@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_tile_block_0",
+    "path": "sprites/s_tile_block_0/s_tile_block_0.yy",
+  },
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_tank",
+    "path": "sprites/s_tank/s_tank.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
