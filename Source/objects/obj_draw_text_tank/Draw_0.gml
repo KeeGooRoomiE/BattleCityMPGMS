@@ -19,8 +19,8 @@ if ( (real(hp)>=1) and (!place_meeting(x,y,obj_xy_place)) )
 
 if ( (global.hp>0) )
 {
-	draw_sprite_ext(Death_antibooster, real(global.bb), ObjPlayer.x, ObjPlayer.y, 0.37, 0.37, 0, -1, image_alpha);
-	draw_sprite_ext(spr_timer, real(bbtimertrue), ObjPlayer.x, ObjPlayer.y, 0.37, 0.37, 0, -1, 0.7);
+	draw_sprite_ext(Death_antibooster, real(global.bb), ObjPlayer.x, ObjPlayer.y, 1, 1, 0, -1, image_alpha);
+	draw_sprite_ext(spr_timer, real(bbtimertrue), ObjPlayer.x, ObjPlayer.y, 1, 1, 0, -1, 0.7);
 	draw_set_colour(c_white);
 	draw_sprite_ext(s_hp,real(global.hp),ObjPlayer.x,ObjPlayer.y-30,0.10, 0.10 ,0, -1, image_alpha);
 	draw_text(ObjPlayer.x,ObjPlayer.y-45,string(tarasbulba));

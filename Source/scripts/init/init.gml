@@ -16,8 +16,8 @@ function init() {
 	
 	global.bbtimer = 0; // кадр таймера бонуса
 	global.bbtimermax = 8; // колличество кадров таймера бонуса
-	global.volume = 2; // громкость 2 == 0
-	
+	global.volume = 0; // громкость 
+	audio_master_gain(0)
 	global.p_online=0 // онлайн игроков
 	global.bb=0 // какой номер бонуса действует на игрока
 	global.hp=3
