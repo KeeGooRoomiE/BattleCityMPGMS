@@ -49,24 +49,28 @@ if (!place_meeting(x, y-cell_height, o_wall))
 if(place_snapped(cell_width, cell_height))
     y_dest -= cell_height
 	sio_emit_position_update();
+	sio_emit_datax_update();
     break;
 case 2:
 if (!place_meeting(x, y+cell_height, o_wall))
 if(place_snapped(cell_width, cell_height))
     y_dest += cell_height
 	sio_emit_position_update();
+	sio_emit_datax_update();
     break;
 case 4:
 if (!place_meeting(x-cell_width, y, o_wall))
 if(place_snapped(cell_width, cell_height))
     x_dest -= cell_width
 	sio_emit_position_update();
+	sio_emit_datax_update();
     break;
 case 6:
 if (!place_meeting(x+cell_width, y, o_wall))
 if(place_snapped(cell_width, cell_height))
     x_dest += cell_width
 	sio_emit_position_update();
+	sio_emit_datax_update();
     break;
 }
 
@@ -78,6 +82,7 @@ if(place_snapped(cell_width, cell_height))
 	move_towards_point(x_dest, y_dest, move_speed);
 	//image_speed=1
 	sio_emit_position_update();
+	sio_emit_datax_update();
 	}else{
 	speed=0
 	//image_speed=0
@@ -98,6 +103,7 @@ if ( global.padEnable = true )
 {
 	
 	sio_emit_position_update();
+	sio_emit_datax_update();
 	if ( in_range(global.dir,316,359) ) or (in_range(global.dir,0,44) )
 	{
 		direction = 0;
@@ -180,23 +186,9 @@ image_angle = direction;
 	
 	/// Move player SERVER 1
 	//sio_emit_position_update();
-	sio_emit_datax_update();
+	//sio_emit_datax_update();
 	
-	
-	/*
-	switch (keyboard_key)
-	{
-	    case vk_numpad1: sio_emit_create_bb(mouse_x,mouse_y,1); break;
-	    case vk_numpad2: sio_emit_create_bb(mouse_x,mouse_y,2); break;
-	    case vk_numpad3: sio_emit_create_bb(mouse_x,mouse_y,3); break;
-	    case vk_numpad4: sio_emit_create_bb(mouse_x,mouse_y,4); break;
-	    case vk_numpad5: sio_emit_create_bb(mouse_x,mouse_y,5); break;
-	    case vk_numpad6: sio_emit_create_bb(mouse_x,mouse_y,6); break;
-	    case vk_numpad7: sio_emit_create_bb(mouse_x,mouse_y,7); break;
-	    case vk_numpad8: sio_emit_create_bb(mouse_x,mouse_y,8); break;
-	    case vk_numpad9: sio_emit_create_bb(mouse_x,mouse_y,9); break;
-	}
-	*/
+
 	
 	var vx = camera_get_view_x(view_camera[0]);
 	var vy = camera_get_view_y(view_camera[0]);
