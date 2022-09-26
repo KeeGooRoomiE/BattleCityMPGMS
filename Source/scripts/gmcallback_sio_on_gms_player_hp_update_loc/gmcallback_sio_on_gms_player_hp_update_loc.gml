@@ -9,6 +9,10 @@ if (room=rm3_game)
 					{
 						global.hp = data[? "hp"];
 						//hp = data[? "hp"];
+						if (global.hp <= 0)
+						{
+						room_goto(rm4_end)	
+						}
 						audio_play_sound(hit_me_hpm, 10, false);
 					}
 			}
