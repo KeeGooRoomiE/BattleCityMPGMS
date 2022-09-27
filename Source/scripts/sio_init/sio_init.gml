@@ -100,6 +100,7 @@ if (!file_exists(working_directory + "srvip.ini"))
 		sio_addEvent("gms_player_hp_update_loc");
 		sio_addEvent("gms_player_hp_update_all");
 		sio_addEvent("destroy_player");
+		sio_addEvent("ping");
 		sio_addEvent("pong");
 		sio_addEvent("datax_update");
 		sio_addEvent("gms_update");

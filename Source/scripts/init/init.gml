@@ -1,5 +1,4 @@
-function init() {
-	//Dpad
+function init() {	//Dpad
 	//global.dir=90                           //Dpad Direction
 	global.length=0                         //Dpad Length
 	global.padEnable = false;

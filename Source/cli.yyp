@@ -184,6 +184,7 @@
     {"id":{"name":"gmcallback_sio_on_up_online_users","path":"scripts/gmcallback_sio_on_up_online_users/gmcallback_sio_on_up_online_users.yy",},"order":10,},
     {"id":{"name":"Tank_Triangle_gray_1","path":"sprites/Tank_Triangle_gray_1/Tank_Triangle_gray_1.yy",},"order":7,},
     {"id":{"name":"spr_kust","path":"sprites/spr_kust/spr_kust.yy",},"order":7,},
+    {"id":{"name":"sio_emit_ping","path":"scripts/sio_emit_ping/sio_emit_ping.yy",},"order":14,},
     {"id":{"name":"o_tcolor","path":"objects/o_tcolor/o_tcolor.yy",},"order":18,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":4,},
     {"id":{"name":"sio_emit_svol","path":"scripts/sio_emit_svol/sio_emit_svol.yy",},"order":4,},

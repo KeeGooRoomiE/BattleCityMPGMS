@@ -1,3 +1,4 @@
+ping+=0.01
 /*
 if (room==rm3_game)
 {

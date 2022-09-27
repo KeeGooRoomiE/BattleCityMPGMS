@@ -1,5 +1,6 @@
 // ping related
-ping = 0;
+ping=0
+rping=0
 alarm[0] = room_speed * 2;
 alarm[1]=30
     base_size = 1720;

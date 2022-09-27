@@ -8,3 +8,4 @@ function sio_emit_toserv_bullet_destroy(argument0) {
 		ds_map_destroy(data);
 #endregion
 }
+

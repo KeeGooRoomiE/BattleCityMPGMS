@@ -19,5 +19,5 @@ bb4=0 // +25% speed щяс 0
 sprsh=0
 //instance_create(x,y,obj_button_exit)
 instance_create_layer(x,y,"TXT_PL",obj_draw_text_tank)
+alarm[0]=2
 
-alarm[0]=1
