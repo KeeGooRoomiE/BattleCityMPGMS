@@ -1,10 +1,10 @@
 
 	//Generator
-	sandPrec = irandom_range(8,10);		//8-10
-	waterPrec = irandom_range(5,8);		//5-8
-	grassPrec = irandom_range(10,15);	//10-15
-	metPrec = irandom_range(5,10);		//5-10
-	brickPrec = irandom_range(15,20);	//15-20
+	sandPrec = irandom_range(6,8);		//8-10
+	waterPrec = irandom_range(3,6);		//5-8
+	grassPrec = irandom_range(8,13);	//10-15
+	metPrec = irandom_range(3,8);		//5-10
+	brickPrec = irandom_range(13,18);	//15-20
 	
 	
 
