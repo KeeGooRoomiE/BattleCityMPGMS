@@ -1,6 +1,7 @@
 // ping related
 ping=0
 rping=0
+yy=(browser_height-80)
 alarm[0] = room_speed * 2;
 alarm[1]=30
     base_size = 1720;

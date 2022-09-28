@@ -4,7 +4,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(fnt_minimap)
 //draw_text(85, 5, "FPS: " + string(game_get_speed(gamespeed_fps)));
-draw_text(5, 840, "\n" + "Ping: " + string(rping) + "ms");
+draw_text(5, yy, "\n" + "Ping: " + string(rping) + "ms");
 
 if (browser_width<browser_height)
 {
