@@ -189,6 +189,7 @@ image_angle = direction;
 	//sio_emit_datax_update();
 	
 
+	/*
 	
 	var vx = camera_get_view_x(view_camera[0]);
 	var vy = camera_get_view_y(view_camera[0]);
@@ -237,6 +238,7 @@ image_angle = direction;
 				instance_create_depth(device_mouse_x(1),device_mouse_y(1),depth-1,obj_button_shoot);
 			} 
 	   }
+	   */
 	   
 } // локал плауер
 
