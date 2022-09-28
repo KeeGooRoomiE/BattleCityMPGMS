@@ -152,9 +152,13 @@ image_angle = direction;
 
 	if (place_meeting(x, y, obj_water) and !(global.bb=2))
 	{
+		if (instance_exists(obj_water)){
 	obj_water.sprite_index = spr_water_nowall
+		}
 	}else{
+				if (instance_exists(obj_water)){
 		obj_water.sprite_index = spr_water_wall
+				}
 	}
 
 	

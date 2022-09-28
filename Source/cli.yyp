@@ -79,6 +79,7 @@
     {"id":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"order":6,},
     {"id":{"name":"spr_pesok","path":"sprites/spr_pesok/spr_pesok.yy",},"order":9,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":10,},
+    {"id":{"name":"spr_pad_shoot","path":"sprites/spr_pad_shoot/spr_pad_shoot.yy",},"order":4,},
     {"id":{"name":"spr_brick_wall","path":"sprites/spr_brick_wall/spr_brick_wall.yy",},"order":1,},
     {"id":{"name":"o_rm2_txt","path":"objects/o_rm2_txt/o_rm2_txt.yy",},"order":8,},
     {"id":{"name":"rm5_game_OFF","path":"rooms/rm5_game_OFF/rm5_game_OFF.yy",},"order":7,},

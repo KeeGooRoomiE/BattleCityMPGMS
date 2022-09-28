@@ -4,4 +4,6 @@ draw_set_font(fnt_minimap)
 draw_set_color(c_white)
 draw_self()
 
-draw_text(x+22,y,string(round(global.amount)))
+draw_text(x,y,string(string_format(global.amount,10,2)))
+
+

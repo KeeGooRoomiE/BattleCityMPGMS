@@ -26,7 +26,7 @@
 	brickRangeMin = metRangeMin-brickPrec;
 	brickRangeMax = metRangeMin;
 	
-	BlockBonusMax = 150;
+	BlockBonusMax = 200;
 
 	bs=64; // размер блоков
 	xv=room_width/bs; // количество блоков горизонтально
@@ -91,7 +91,7 @@
 					//instance_create_layer( (bs/2) + (i*bs), (bs/2) + (j*bs), "Obstacles", obj_brick_wall);
 					sio_emit_create_block( (bs/2) + (i*bs), (bs/2) + (j*bs),"BRICK","obj_brick_wall",2)
 					//randomize()
-					var can = choose(0,0,0,0,1,0,0,0,0)
+					var can = choose(0,0,0,0,0,0,0,0,0,1,0,0,0,0,0)
 					if (can)
 					{
 						if ( BlockBonusMax > 0)
