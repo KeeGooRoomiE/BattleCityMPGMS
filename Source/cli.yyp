@@ -39,6 +39,7 @@
     {"id":{"name":"sio_init","path":"scripts/sio_init/sio_init.yy",},"order":0,},
     {"id":{"name":"o_rm2_bg3","path":"objects/o_rm2_bg3/o_rm2_bg3.yy",},"order":6,},
     {"id":{"name":"s_win_lose","path":"sprites/s_win_lose/s_win_lose.yy",},"order":5,},
+    {"id":{"name":"fnt_minimap15","path":"fonts/fnt_minimap15/fnt_minimap15.yy",},"order":9,},
     {"id":{"name":"o_water","path":"objects/o_water/o_water.yy",},"order":3,},
     {"id":{"name":"OFF_ObjPlayer","path":"objects/OFF_ObjPlayer/OFF_ObjPlayer.yy",},"order":8,},
     {"id":{"name":"o_bot","path":"objects/o_bot/o_bot.yy",},"order":1,},
