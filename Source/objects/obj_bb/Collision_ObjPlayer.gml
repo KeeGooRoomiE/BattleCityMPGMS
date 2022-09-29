@@ -43,4 +43,5 @@ switch (bb)
     break;
 }
 sio_emit_bb_destroy(string(bbindex),string(bb));
+audio_play_sound(bonus_appear, 10, false);
 instance_destroy()

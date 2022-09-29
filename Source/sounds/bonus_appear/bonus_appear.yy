@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bonus_appear.wav",
-  "duration": 0.599467,
+  "duration": 0.594467,
   "parent": {
     "name": "MUZ",
     "path": "folders/MUZ.yy",

@@ -220,7 +220,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "fnt_minimap",
+  "name": "fnt_minimap15",
   "tags": [],
   "resourceType": "GMFont",
 }

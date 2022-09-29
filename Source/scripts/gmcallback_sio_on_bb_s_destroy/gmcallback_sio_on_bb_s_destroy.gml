@@ -8,7 +8,7 @@ function gmcallback_sio_on_bb_s_destroy() {
 			if (real(srid) == real(data[? "bbindex"]))
 			{
 			array_set(global.bonbon[i],4,0); 
-			audio_play_sound(bonus_appear, 10, false);
+			
 			}
 		}
 	}
