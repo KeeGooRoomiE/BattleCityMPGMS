@@ -531,7 +531,6 @@ function reGen(room_id) {
 					blocks[i].gotDamageFrom = 0; 
 					//client.emit('gms_block_hp_update', blocks[i].toString());
 					client.broadcast.emit('gms_block_hp_update', blocks[i].toString());	
-					client.broadcast.emit('gms_block_hp_update', blocks[i].toString());	
 					}
 				}
 				for (let i in bblocks) 
@@ -541,8 +540,6 @@ function reGen(room_id) {
 					bblocks[i].act = 1;
 					//client.emit('send_bb_act_update', bblocks[i].toString());
 					client.broadcast.emit('send_bb_act_update', bblocks[i].toString());	 //TODO
-					client.broadcast.emit('send_bb_act_update', bblocks[i].toString());	
-					client.broadcast.emit('send_bb_act_update', bblocks[i].toString());	
 					}
 				}
 }

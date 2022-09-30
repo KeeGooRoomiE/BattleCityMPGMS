@@ -179,10 +179,7 @@ image_angle = direction;
 	move_speed = 1.5; // TODO
 	}else {move_speed =3*bb4;} // TODO
 	
-	if ( global.user_id == 958056345 or global.user_id == 1966891044 )
-		{
-		if (keyboard_check(vk_shift)) {move_speed = 3 * 3}else{move_speed = 3*bb4}
-		}
+	
 	
 	/// Move player SERVER 1
 	//sio_emit_position_update();
