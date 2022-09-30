@@ -338,7 +338,16 @@ server.listen(port, (err) => {
 		
 	});
 	///calбэк//
-
+	/*
+	///URL TEST//
+	const urlencodedParser2 = express.urlencoded({extended: false});
+	app.get("/code2", urlencodedParser2, function (request, response) {
+		
+	console.log(`code2 ok`);
+		
+	});
+	///URL TEST//
+	*/
 });
 
 
@@ -488,6 +497,15 @@ class xdata_vol {
         return JSON.stringify(this);
     }
 }
+
+class plp {
+	constructor(data) {
+        this.plpong = data.plpong;
+    }
+	toString() {
+        return JSON.stringify(this);
+    }
+}
 ///////////////////////////// * END CLASS * /////////////////////////////
 
 
@@ -512,6 +530,7 @@ function reGen(room_id) {
 					blocks[i].gotDamageFrom = 0; 
 					//client.emit('gms_block_hp_update', blocks[i].toString());
 					client.broadcast.emit('gms_block_hp_update', blocks[i].toString());	
+					client.broadcast.emit('gms_block_hp_update', blocks[i].toString());	
 					}
 				}
 				for (let i in bblocks) 
@@ -520,6 +539,8 @@ function reGen(room_id) {
 					{
 					bblocks[i].act = 1;
 					//client.emit('send_bb_act_update', bblocks[i].toString());
+					client.broadcast.emit('send_bb_act_update', bblocks[i].toString());	 //TODO
+					client.broadcast.emit('send_bb_act_update', bblocks[i].toString());	
 					client.broadcast.emit('send_bb_act_update', bblocks[i].toString());	
 					}
 				}
@@ -645,10 +666,8 @@ client.on('do_me_info', (data) =>
 		}
 			//console.log(results);
 		
-		if (results.length === 0) 
+		if (results.length !== 0) 
 		{
-			// НЧИЕГО НЕ ОТПРАВЛЯЕМ!
-		}else{
 			//отправляем клиенту статус звука
 			
 			var xdatavol = new xdata_vol({
@@ -1076,8 +1095,9 @@ for (let i in players)
 		{
 				console.log(`findrm!++`);
 				//players[i].isonline=0;
-				var sxplayer = players[i]; // массив мой  
-				sxplayer.isonline=0;
+				//var sxplayer = players[i]; // массив мой  
+				players[i].isonline=0;
+				//sxplayer.isonline = 0;
 				setTimeout(kickPl, 100,players[i]);
 		}else // -
 		{
@@ -1184,6 +1204,21 @@ for (let i in players)
 // *** POST начать играть *** //
 ///////////////////////////// * END START PlAY * /////////////////////////////
 ///////////////////////////// * END START PlAY * /////////////////////////////
+
+
+// PiNG pOng ///////////////
+client.on('ping', (data) => {
+		data = JSON.parse(data);
+		
+		var xdataplpong = new xdata_vol({
+		qw: 1
+		});
+		
+		client.emit('pong', xdataplpong.toString());
+		});
+// PiNG pOng ///////////////
+// PiNG pOng ///////////////
+
 
 ///////////////////////////// * START PlAYER * /////////////////////////////
 ///////////////////////////// * START PlAYER * /////////////////////////////
@@ -1918,7 +1953,7 @@ client.on('toserv_bullet_destroy', (data) => {
 
 			player.bb=ibbonus
 
-			//console.log(`Игрок [${player.user_id}][${player.username}][${player.hp}] подобрал [${bblocks[i].bbindex}] (${bblocks[i].bb})`);
+			console.log(`Игрок [${player.user_id}][${player.username}][${player.hp}] подобрал [${bblocks[i].bbindex}] (${bblocks[i].bb})`);
 			//client.emit('bb_s_destroy', bblocks[i].toString());
 			client.broadcast.emit('bb_s_destroy', bblocks[i].toString());
 			//bblocks.splice(bblocks[i], 1); //bblocks on i
