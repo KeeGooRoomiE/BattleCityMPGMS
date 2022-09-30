@@ -71,7 +71,7 @@ sqlconnectionv.query(sqlrd,  function(err, results) {
 		datax[player.user_id] = [];
 		players.push(player);
 		player.isonline = 0
-		setTimeout(kickPlsql, 300,player);
+		setTimeout(kickPlsql, 3000,player);
     }
 });
 
@@ -1098,7 +1098,7 @@ for (let i in players)
 				//var sxplayer = players[i]; // массив мой  
 				players[i].isonline=0;
 				//sxplayer.isonline = 0;
-				setTimeout(kickPl, 100,players[i]);
+				setTimeout(kickPl, 1,players[i]);
 		}else // -
 		{
 			console.log(`findrm!--`);
@@ -1788,7 +1788,7 @@ if (players.length > 0)
 	
 //// Когда игрок закрывает игру или обновляет страницу
 client.on('disconnect', () => {
-	if (typeof(player) !== 'undefined') // на случай если клиент постучался но не прошел дальше и вышел.
+	if (typeof(player) !== 'undefined') // на случай если клиент постучался но ыне прошел дальше и вышел.
 		{
 			player.isonline=0;
 			setTimeout(kickPl, 35000,player);
