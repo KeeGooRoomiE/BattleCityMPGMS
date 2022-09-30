@@ -40,6 +40,8 @@ const sqlconnectionv = mysql.createConnection({
   database: sqdatabase,
   password: sqpassword
 });
+
+
 const sqlrd = "SELECT * FROM tanks";
 sqlconnectionv.query(sqlrd,  function(err, results) {
     if(err) console.log(err);
@@ -94,7 +96,6 @@ sqlconnectionv.query(sql2, function(err, results) {
         };
 });
 // Ч
-
 sqlconnectionv.end();
 // Ч к д
 
@@ -1098,7 +1099,7 @@ for (let i in players)
 				//var sxplayer = players[i]; // массив мой  
 				players[i].isonline=0;
 				//sxplayer.isonline = 0;
-				setTimeout(kickPl, 1,players[i]);
+				setTimeout(kickPl, 300,players[i]);
 		}else // -
 		{
 			console.log(`findrm!--`);
@@ -1465,7 +1466,7 @@ if (players.length > 0)
 	  if (ispfound)
 	  {
 			var splayer = players[i]; // массив врага  
-			if (splayer.bb !== "6") // ББ щит
+			if (splayer.bb !== 6) // ББ щит TODO2
 			{
 				
 				splayer.hp -= sdamage; // -хп врага
@@ -1788,7 +1789,7 @@ if (players.length > 0)
 	
 //// Когда игрок закрывает игру или обновляет страницу
 client.on('disconnect', () => {
-	if (typeof(player) !== 'undefined') // на случай если клиент постучался но ыне прошел дальше и вышел.
+	if (typeof(player) !== 'undefined') // на случай если клиент постучался но не прошел дальше и вышел.
 		{
 			player.isonline=0;
 			setTimeout(kickPl, 35000,player);
