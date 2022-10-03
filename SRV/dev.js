@@ -170,6 +170,8 @@ console.log(`Ïðîâåðêà èãðîêà [${player.username}] íà àêòèâíîñòü`);
 							process.stdout.write(d)
 						  })
 						})
+						
+
 
 						req.on('error', error => {
 						  console.error(error)
@@ -742,7 +744,6 @@ for (let i in blocks) {
 					//process.stdout.write(d)
 					var dataxjqx = JSON.parse(d);
 					//console.log(d);
-////////////////////
 					var aa = dataxjqx["data"];
 					var bb = aa["user"];
 					var cc = bb["pro"];
@@ -753,7 +754,7 @@ for (let i in blocks) {
 					});
 					
 					client.emit('info_user', clientxqqw.toString());
-////////////////////
+
 					  })
 					})
 
@@ -1150,7 +1151,7 @@ for (let i in players)
 		var apidata = data["data"];
 		
 		var apidgame = apidata["game"];
-		var amount = apidgame["amount"]; // TODO ÏÐÎÐÀÁÎÒÀÒÜ ÅÐÐÎÐ ÏÀÄÅÍÈß ÑÅÐÂÅÐÀ !!!
+		var amount = apidgame["amount"];
 		
 		var gamount = apidgame["game"]; 
 		var wallet = gamount["wallet"]; 
@@ -1572,6 +1573,7 @@ if (players.length > 0)
 					  })
 					})
 
+
 					req.on('error', error => {
 					  console.error(error)
 					})
@@ -1680,6 +1682,7 @@ if (players.length > 0)
 							process.stdout.write(d)
 						  })
 						})
+
 
 						req.on('error', error => {
 						  console.error(error)
