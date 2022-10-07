@@ -7,7 +7,7 @@ function sio_init() {
 	
 if (!file_exists(working_directory + "srvip.ini"))
 {
-	var srvip = "tanks.mindplays.games"
+	var srvip = "188.165.226.110:3002"
 }else{
 	
 	var file = file_text_open_read(working_directory + "srvip.ini");
