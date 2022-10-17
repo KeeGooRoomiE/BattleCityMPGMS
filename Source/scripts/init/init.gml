@@ -34,7 +34,7 @@ function init() {	//Dpad
 	global.battle_id = "$battle_id"; //  id MP
 	
 	global.username = "username007"; 
-	global.amount = "10.00000000";
+	global.amount = "1000.00000000";
 	global.wallet = "1" // 1 - usdt - 2 - mind
 
 	
