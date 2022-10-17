@@ -25,10 +25,12 @@ draw_set_font(fnt_minimap2)
 if (wview >1090)
 {
 	draw_sprite(spr_asset_7, image_index, _x+150,_y+255);
-	draw_text(_x+150+10,_y+260+4,"Online: "+string(global.p_online)); 
+	draw_text(_x+160,_y+264,"Online: "+string(global.p_online)); 
+	draw_sprite(spr_z7, global.nwpl, _x+245,_y+270);
 }else{
 	draw_sprite(spr_asset_7, image_index, _x,_y+143);
-	draw_text(_x+10,_y+148+4,"Online: "+string(global.p_online)); 
+	draw_text(_x+20,_y+152,"Online: "+string(global.p_online)); 
+	draw_sprite(spr_z7, global.nwpl, _x+120,_y+160);
 }
 
 

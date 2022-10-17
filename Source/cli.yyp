@@ -43,6 +43,7 @@
     {"id":{"name":"o_water","path":"objects/o_water/o_water.yy",},"order":3,},
     {"id":{"name":"OFF_ObjPlayer","path":"objects/OFF_ObjPlayer/OFF_ObjPlayer.yy",},"order":8,},
     {"id":{"name":"o_bot","path":"objects/o_bot/o_bot.yy",},"order":1,},
+    {"id":{"name":"spr_z7","path":"sprites/spr_z7/spr_z7.yy",},"order":12,},
     {"id":{"name":"Tank_other","path":"sprites/Tank_other/Tank_other.yy",},"order":9,},
     {"id":{"name":"gmcallback_sio_on_connect","path":"scripts/gmcallback_sio_on_connect/gmcallback_sio_on_connect.yy",},"order":0,},
     {"id":{"name":"gmcallback_sio_on_message_update","path":"scripts/gmcallback_sio_on_message_update/gmcallback_sio_on_message_update.yy",},"order":6,},

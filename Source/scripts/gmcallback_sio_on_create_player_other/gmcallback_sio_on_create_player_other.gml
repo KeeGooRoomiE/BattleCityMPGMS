@@ -14,6 +14,7 @@ function gmcallback_sio_on_create_player_other() {
 				image_blend = data[? "tankcolor"];
 				hp = data[? "hp"];
 				imageangle = data[? "imageangle"];
+				obj_map.alarm[0]=1
 			}
 		}
 	}

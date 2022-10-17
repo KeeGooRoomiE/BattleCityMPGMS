@@ -13,6 +13,7 @@ function init() {	//Dpad
 	array_push(global.bonbon[0], 0, 1, 2, 3, 4, 5);
 	global.bonbonId = 0; // уникальный идентификатор для каждого блока Бонуса
 	
+	global.nwpl=0 // Z-молния под миникайртой
 	global.bbtimer = 0; // кадр таймера бонуса
 	global.bbtimermax = 8; // колличество кадров таймера бонуса
 	global.volume = 0; // громкость 
