@@ -96,6 +96,7 @@
     {"id":{"name":"minimap","path":"scripts/minimap/minimap.yy",},"order":7,},
     {"id":{"name":"rm6_disc","path":"rooms/rm6_disc/rm6_disc.yy",},"order":6,},
     {"id":{"name":"spr_metal","path":"sprites/spr_metal/spr_metal.yy",},"order":8,},
+    {"id":{"name":"fnt_init_rm","path":"fonts/fnt_init_rm/fnt_init_rm.yy",},"order":10,},
     {"id":{"name":"Rectangle_51","path":"sprites/Rectangle_51/Rectangle_51.yy",},"order":4,},
     {"id":{"name":"s_bgrm2","path":"sprites/s_bgrm2/s_bgrm2.yy",},"order":1,},
     {"id":{"name":"sio_emit_if_i_online","path":"scripts/sio_emit_if_i_online/sio_emit_if_i_online.yy",},"order":9,},

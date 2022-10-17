@@ -1,3 +1,3 @@
 active = false
 txtdata = "NFTs"
-visible = false
+//visible = false
