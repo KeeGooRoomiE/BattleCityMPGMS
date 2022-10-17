@@ -1,4 +1,4 @@
-if (room==rm3_game)
+if ( (room==rm3_game) or (rm5_game_OFF) )
 {
     base_size = 1290;
 	width = browser_width; //x

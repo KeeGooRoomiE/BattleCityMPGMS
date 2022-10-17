@@ -6,6 +6,8 @@ cell_height = 32; //было 40
 x_dest = x;
 y_dest = y;
 instance_create(x,y,obj_map)
+instance_create(x,y,o_vol_2)
+instance_create(x,y,o_money_2)
 //audio_play_sound(m_start, 10, false);
 image_index=global.mytank;
 sprite_index = global.st_index;
