@@ -111,6 +111,7 @@
     {"id":{"name":"fnt_minimap24_30","path":"fonts/fnt_minimap24_30/fnt_minimap24_30.yy",},"order":5,},
     {"id":{"name":"spr_radar_0","path":"sprites/spr_radar_0/spr_radar_0.yy",},"order":11,},
     {"id":{"name":"sio_emit_hp_update","path":"scripts/sio_emit_hp_update/sio_emit_hp_update.yy",},"order":6,},
+    {"id":{"name":"spr_asset_7","path":"sprites/spr_asset_7/spr_asset_7.yy",},"order":11,},
     {"id":{"name":"object_get_depth","path":"scripts/object_get_depth/object_get_depth.yy",},"order":0,},
     {"id":{"name":"sio_emit_do_me_update","path":"scripts/sio_emit_do_me_update/sio_emit_do_me_update.yy",},"order":8,},
     {"id":{"name":"s_dpad","path":"sprites/s_dpad/s_dpad.yy",},"order":10,},

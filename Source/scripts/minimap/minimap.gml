@@ -13,7 +13,7 @@ if (wview >1090)
 }
 
 
-draw_rectangle_color(_x,_y,_x+room_width/_s,_y+room_height/_s,c_yellow,c_yellow,c_yellow,c_yellow,1); 
+draw_rectangle_color(_x,_y,_x+room_width/_s,_y+room_height/_s,c_white,c_white,c_white,c_white,1); 
 draw_set_font(fnt_minimap)
 
 draw_set_color(c_white); 
@@ -24,9 +24,11 @@ draw_set_font(fnt_minimap2)
 
 if (wview >1090)
 {
-	draw_text(_x+8,_y+240,"Online: "+string(global.p_online)); 
+	draw_sprite(spr_asset_7, image_index, _x+150,_y+260);
+	draw_text(_x+150+10,_y+260+8,"Online: "+string(global.p_online)); 
 }else{
-	draw_text(_x+8,_y+120,"Online: "+string(global.p_online)); 
+	draw_sprite(spr_asset_7, image_index, _x,_y+148);
+	draw_text(_x+10,_y+148+8,"Online: "+string(global.p_online)); 
 }
 
 
