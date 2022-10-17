@@ -10,8 +10,8 @@ if (txtdata == "START")
 	instance_deactivate_layer("BG_CHOOSE")
 	instance_deactivate_layer("Assets_1")
 
-	room_goto(rm5_game_OFF) // IF LOCAL TEST - 1 (clear //)
-	//instance_create_layer(960,576,"SYS",o_start) //  IF LOCAL TEST - 0 (make //)
+	//room_goto(rm5_game_OFF) // IF LOCAL TEST - 1 (clear //)
+	instance_create_layer(960,576,"SYS",o_start) //  IF LOCAL TEST - 0 (make //)
 	
 	
 }

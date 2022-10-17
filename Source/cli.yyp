@@ -33,7 +33,7 @@
     {"id":{"name":"o_bullet_rg","path":"objects/o_bullet_rg/o_bullet_rg.yy",},"order":14,},
     {"id":{"name":"gmcallback_sio_on_gms_player_hp_update_all","path":"scripts/gmcallback_sio_on_gms_player_hp_update_all/gmcallback_sio_on_gms_player_hp_update_all.yy",},"order":6,},
     {"id":{"name":"s_Minimap","path":"sprites/s_Minimap/s_Minimap.yy",},"order":3,},
-    {"id":{"name":"Sprite59","path":"sprites/Sprite59/Sprite59.yy",},"order":25,},
+    {"id":{"name":"Sprite59","path":"sprites/Sprite59/Sprite59.yy",},"order":11,},
     {"id":{"name":"cendcmd","path":"scripts/cendcmd/cendcmd.yy",},"order":4,},
     {"id":{"name":"Rectangle_50","path":"sprites/Rectangle_50/Rectangle_50.yy",},"order":2,},
     {"id":{"name":"sio_init","path":"scripts/sio_init/sio_init.yy",},"order":0,},

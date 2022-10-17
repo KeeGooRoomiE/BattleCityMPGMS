@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "cli",
-    "path": "cli.yyp",
+    "name": "Sprites",
+    "path": "folders/Спрайты/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite59",
