@@ -5,7 +5,7 @@ function sio_init() {
 #region macros
 	//srvip = "http://127.0.0.1:3000"
 	
-if (!file_exists(working_directory + "srvip.ini"))
+if !(file_exists(working_directory + "srvip.ini"))
 {
 	var srvip = "tanks.mindplays.games"
 }else{
