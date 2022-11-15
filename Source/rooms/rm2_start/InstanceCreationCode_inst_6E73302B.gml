@@ -1,1 +1,1 @@
-tcolor=c_orange
+tcolor=c_dkgray

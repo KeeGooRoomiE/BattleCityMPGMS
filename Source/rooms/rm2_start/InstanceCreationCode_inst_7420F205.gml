@@ -1,1 +1,1 @@
-tcolor=c_red
+tcolor=c_fuchsia
