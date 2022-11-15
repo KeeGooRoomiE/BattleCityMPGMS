@@ -17,7 +17,7 @@
   "option_html5_centregame": false,
   "option_html5_usebuiltinparticles": true,
   "option_html5_usebuiltinfont": true,
-  "option_html5_webgl": 0,
+  "option_html5_webgl": 2,
   "option_html5_scale": 1,
   "option_html5_texture_page": "1024x1024",
   "option_html5_use_facebook": false,
