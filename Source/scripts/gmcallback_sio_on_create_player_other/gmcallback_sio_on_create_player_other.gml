@@ -6,6 +6,7 @@ function gmcallback_sio_on_create_player_other() {
 		{
 			with(instance_create_layer(data[? "x"], data[? "y"], "PLAYER", Obj_other_Player)) {
 				isLocalPlayer = false;
+				xyplace = 0; // place_meeting(x,y,obj_xy_place)
 				user_id = data[? "user_id"]; 
 				playerId = data[? "id"];
 				username = data[? "username"]; 

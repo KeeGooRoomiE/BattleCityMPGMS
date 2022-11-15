@@ -212,6 +212,7 @@
     {"id":{"name":"obj_dpad_player","path":"objects/obj_dpad_player/obj_dpad_player.yy",},"order":12,},
     {"id":{"name":"sio_emit_do_me_info","path":"scripts/sio_emit_do_me_info/sio_emit_do_me_info.yy",},"order":10,},
     {"id":{"name":"sio_emit_can_i_gen","path":"scripts/sio_emit_can_i_gen/sio_emit_can_i_gen.yy",},"order":9,},
+    {"id":{"name":"Sprite101","path":"sprites/Sprite101/Sprite101.yy",},"order":30,},
     {"id":{"name":"o_rm2_bg","path":"objects/o_rm2_bg/o_rm2_bg.yy",},"order":4,},
     {"id":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},"order":1,},
     {"id":{"name":"sio_emit_create_player","path":"scripts/sio_emit_create_player/sio_emit_create_player.yy",},"order":0,},

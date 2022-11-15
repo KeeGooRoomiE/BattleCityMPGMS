@@ -5,7 +5,7 @@ draw_set_font(fnt_minimap10);
 
 with (Obj_other_Player)
 {
-if ( (real(hp)>=1) /*and !(place_meeting(x,y,obj_xy_place))*/ )
+if ( (real(hp)>=1) and (real(xyplace)==0) )
 	{
 		
 		if !(string(bb)=="6")
