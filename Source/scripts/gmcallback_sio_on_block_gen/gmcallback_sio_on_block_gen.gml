@@ -4,6 +4,6 @@ function gmcallback_sio_on_block_gen() {
 	var ans = real(data[? "qw"]);
 	if (ans)
 	{
-		instance_create(0,0,obj_controller)
+		instance_create_depth(0,0,1,obj_controller)
 	}
 }

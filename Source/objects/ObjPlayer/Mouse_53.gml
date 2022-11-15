@@ -1,8 +1,4 @@
-if(isLocalPlayer){
-	
-//instance_create(mouse_x,mouse_y,obj_bb)
-
-//if !(os_type==os_windows or os_type==os_macosx or os_type==os_linux)
+if(isLocalPlayer){//if !(os_type==os_windows or os_type==os_macosx or os_type==os_linux)
 //{
 	var vx = camera_get_view_x(view_camera[0]);
 	var vy = camera_get_view_y(view_camera[0]);

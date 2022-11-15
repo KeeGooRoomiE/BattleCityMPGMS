@@ -2,8 +2,8 @@ function gmcallback_sio_on_create_player() {
 	var data = json_decode(argument[0]);
 	if (room=rm3_game)
 	{
-		instance_create(1,1,o_money_2)
-		instance_create(1,1,o_vol_2)
+		instance_create_depth(1,1,1,o_money_2)
+		instance_create_depth(1,1,1,o_vol_2)
 
 			var ispaw = irandom_range(0, instance_number(obj_sand_tile));
 			var ioispaw = instance_find(obj_sand_tile,ispaw)

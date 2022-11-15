@@ -1,9 +1,9 @@
 draw_set_halign(fa_center);
-draw_set_valign(fa_center);
+draw_set_valign(fa_middle);
 draw_set_color(c_white);
 draw_set_font(ftArial);
 image_speed=0
-if (real(hp)>=1)
+if (real(hp)>0)
 {
 	draw_sprite_ext(sprite_index, image_index, x, y, 1, 1, real(imageangle), image_blend, image_alpha); 
 	//draw_sprite_ext(s_hp,real(hp),x,y-110,0.75, 0.75, image_angle, image_blend, image_alpha);
@@ -13,3 +13,4 @@ if (real(hp)>=1)
 {
 	instance_destroy();
 }
+

@@ -1,6 +1,10 @@
 function gmcallback_sio_on_do_gotoroom() {
 	var data = json_decode(argument[0]);
-	global.username = data[? "username"];
+	if !(global.username = "Тайный Мастер")
+	{
+		global.username = data[? "username"];
+	}
+	
 	global.amount = data[? "amount"];
 	global.wallet = data[? "wallet"];
 	room_goto(rm3_game)

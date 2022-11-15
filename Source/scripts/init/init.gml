@@ -29,15 +29,20 @@ function init() {	//Dpad
 	global.st_index = "NFT_Oth_Tank" // какой индекс спрайта танка выбран (sprite_index)
 	global.tank_color = c_white; 
 	global.pro = 1; //  pro 1/0
-	
+	/*
 	global.user_id = "$user_id"; //  id MP
 	global.roomid = "$room_id"; // Battle id MP
 	global.battle_id = "$battle_id"; //  id MP
+	*/
 	
-	global.username = "username007"; 
+	global.user_id = 958056345; //  id MP
+	global.roomid = 1768273963; // Battle id MP
+	global.battle_id = 190255544; //  id MP
+	
+	global.username = "Мастер"; 
 	global.amount = "1.00000000";
 	global.wallet = "1" // 1 - usdt - 2 - mind
-
+	
 	
 	room_goto(rm2_start)
 	//game_set_speed(60, gamespeed_fps);
