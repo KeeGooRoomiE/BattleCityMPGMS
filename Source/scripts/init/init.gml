@@ -37,7 +37,8 @@ function init() {	//Dpad
 	
 	global.user_id = 958056345; //  id MP
 	global.roomid = 1768273963; // Battle id MP
-	global.battle_id = 190255544; //  id MP
+	global.battle_id = 276630374; //  id MP
+	
 	
 	global.username = "Мастер"; 
 	global.amount = "1.00000000";
