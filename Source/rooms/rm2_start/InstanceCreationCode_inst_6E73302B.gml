@@ -1,1 +1,1 @@
-tcolor=c_gray
+tcolor=c_red;
